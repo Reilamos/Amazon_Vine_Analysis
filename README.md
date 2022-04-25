@@ -44,5 +44,18 @@ Then loaded the dataframes to PostgreSQL and the AWS RDS created. I ran queries 
 
 
 - How many Vine reviews and non-Vine reviews were there?
+
+![image](https://user-images.githubusercontent.com/96445453/165027145-01119288-6042-410c-a035-ee2ddc777a69.png)
+![image](https://user-images.githubusercontent.com/96445453/165027178-67baf8da-51d7-410f-b4d9-d4df36a38f37.png)
+- Out of a total of 18138 reviews in this dataset, 136 were paid reviews (.75%) while 18002 were unpaid reviews (99.25%)
+
 - How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+
+![image](https://user-images.githubusercontent.com/96445453/165026740-6f4321ee-3dcd-455d-92eb-572708d8854d.png)
+![image](https://user-images.githubusercontent.com/96445453/165026837-c11e76ad-344c-4c23-a463-923e5619b78e.png)
+
+
 - What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+
+![image](https://user-images.githubusercontent.com/96445453/165027454-edb86018-5ee9-42ea-8b21-515eb86ad7db.png)
+
