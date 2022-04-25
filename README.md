@@ -11,6 +11,8 @@ I was tasked with another, larger project: analyzing Amazon reviews written by m
 
 ## Results
 
+### Deliverable 1
+
 In Deliverable 1 we are tasked with extrating the dataset using google Colab with PySpark. I chose dataset: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Furniture_v1_00.tsv.gzCreated 
 
 Multiple dataframes were created for the dataset.
@@ -36,8 +38,9 @@ Then loaded the dataframes to PostgreSQL and the AWS RDS created. I ran queries 
 ![image](https://user-images.githubusercontent.com/96445453/165022007-87e73ced-aee9-4706-aa15-eeb34d674c5a.png)
 ![image](https://user-images.githubusercontent.com/96445453/165022047-7a004830-006d-47fd-b97a-68c3b298ae40.png)
 ![image](https://user-images.githubusercontent.com/96445453/165022081-12acda66-fa7c-4681-bf75-25b791374160.png)
+![image](https://user-images.githubusercontent.com/96445453/165023558-4776c2bb-a926-4587-9127-993e47b46da3.png)
 
-
+### Deliverable 2
 
 
 - How many Vine reviews and non-Vine reviews were there?
