@@ -13,7 +13,7 @@ I was tasked with another, larger project: analyzing Amazon reviews written by m
 
 ### Deliverable 1
 
-In Deliverable 1 we are tasked with extrating the dataset using google Colab with PySpark. I chose dataset: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Furniture_v1_00.tsv.gzCreated 
+In Deliverable 1 we are tasked with extracting the dataset using google Colab with PySpark. I chose dataset: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Furniture_v1_00.tsv.gzCreated 
 
 Multiple dataframes were created for the dataset.
 
@@ -44,18 +44,26 @@ Then loaded the dataframes to PostgreSQL and the AWS RDS created. I ran queries 
 
 
 - How many Vine reviews and non-Vine reviews were there?
-
+  - Out of a total of 18138 reviews in this dataset, 136 were paid reviews (.75%) while 18002 were unpaid reviews (99.25%)  
 ![image](https://user-images.githubusercontent.com/96445453/165027145-01119288-6042-410c-a035-ee2ddc777a69.png)
 ![image](https://user-images.githubusercontent.com/96445453/165027178-67baf8da-51d7-410f-b4d9-d4df36a38f37.png)
-- Out of a total of 18138 reviews in this dataset, 136 were paid reviews (.75%) while 18002 were unpaid reviews (99.25%)
 
 - How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+  - There are 8546 total five star reviews.  A total of 74 are paid Vine reviews(.87%). 8472 were unpaid 5 star reviews (99.13%)
 
-![image](https://user-images.githubusercontent.com/96445453/165026740-6f4321ee-3dcd-455d-92eb-572708d8854d.png)
-![image](https://user-images.githubusercontent.com/96445453/165026837-c11e76ad-344c-4c23-a463-923e5619b78e.png)
-
+![image](https://user-images.githubusercontent.com/96445453/165028187-258eef18-12ad-4c6b-a462-21bec8579e62.png)
+![image](https://user-images.githubusercontent.com/96445453/165028357-979ea255-3454-4220-b574-e3f0f9c7f315.png)
 
 - What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+  - The paid Vine reviewers percentage of 5 star ratings was 54.41%. non-Vine reviews that were 5 stars had a total percentage of 52.94%.
 
-![image](https://user-images.githubusercontent.com/96445453/165027454-edb86018-5ee9-42ea-8b21-515eb86ad7db.png)
+![image](https://user-images.githubusercontent.com/96445453/165029341-28ec39f9-e528-4cf7-9421-e204c6e3f225.png)
+![image](https://user-images.githubusercontent.com/96445453/165029288-e84561dc-77f6-43df-9ef4-5dced4318419.png)
+
+## Summary
+
+After extracting the data it looks like there is a near 50% chance a review will be 5stars. This might indicate that people either really love the products or simply dismiss a product review with a five star rating. There are a large amount of unpaid users compared to paid users or Vine vs non-Vine. The Vine vs non-Vine data shows a similar percentage of people that vote 5 star on reviews.
+
+See Amazon_Reviews_ETL
+See Vine_Review_Analysis
 
